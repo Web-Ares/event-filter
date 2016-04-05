@@ -1,0 +1,16 @@
+.social {
+  margin-bottom: 25px;
+}
+.social a {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 14px;
+  font-size: 20px;
+  color: $social-color;
+  @include oneEventTransition(color);
+
+  &:hover{
+    color: $social-color-hover;
+  }
+
+}

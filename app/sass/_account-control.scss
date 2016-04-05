@@ -1,0 +1,17 @@
+.account-control {
+  position: absolute;
+  top: 37px;
+  right: -7px;
+  @include main-font3;
+  font-size: 16px;
+}
+.account-control__item{
+  margin-left: 25px;
+  color: $account-control-color;
+  @include oneEventTransition(color);
+
+  &:hover {
+    color: $account-control-color-hover;
+  }
+
+}

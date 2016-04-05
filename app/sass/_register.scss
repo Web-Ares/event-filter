@@ -1,0 +1,68 @@
+.register{
+  padding-top: 57px;
+  font-size: 14px;
+  @include main-font2;
+}
+.register__title{
+  margin-bottom: 24px;
+  color: $register-title;
+  font-size: 24px;
+  @include main-font4;
+  text-transform: uppercase;
+}
+.register__layout{
+  width: 354px;
+  margin: 0 auto;
+}
+.register fieldset{
+  margin-bottom: 20px;
+}
+.register label{
+  display: block;
+  margin-bottom: 6px;
+  color: $register-label;
+  text-transform: uppercase;
+}
+.register label span{
+  font-size: 16px;
+  @include main-font3;
+  color: $register-note;
+}
+.register input{
+  display: flex;
+  display: -webkit-flex;
+  text-align: center;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  width: 100%;
+  height: 41px;
+  padding: 0 10px;
+  border: 1px solid $lost-password-input-border;
+  border-radius: 3px;
+  color: $lost-password-input-color;
+  font-size: 15px;
+  @include main-font2;
+  background: $lost-password-input;
+  text-align: left;
+}
+.register__note{
+  display: block;
+  margin: 10px 0 3px;
+}
+.register__required-note{
+  display: block;
+  margin-bottom: 31px;
+  font-size: 16px;
+  color: $register-note;
+
+  b {
+    @include main-font3
+  }
+}
+.captcha{
+  margin-bottom: 38px;
+}

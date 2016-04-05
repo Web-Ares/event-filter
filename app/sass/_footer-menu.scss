@@ -1,0 +1,20 @@
+.footer-menu {
+  cursor: default;
+  margin-bottom: 13px;
+}
+.footer-menu_item,
+.footer-menu_item:visited {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 10px;
+  @include main-font2;
+  font-size: 16px;
+  color: $footer-menu-item-color;
+  @include oneEventTransition(color);
+  margin-bottom: 20px;
+
+  &:hover {
+    color: $footer-menu-item-color-hover;
+  }
+
+}

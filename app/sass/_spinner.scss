@@ -1,0 +1,38 @@
+.spinner {
+  position: relative;
+}
+.spinner input{
+  padding-right: 30px;
+}
+.spinner-plus,
+.spinner-minus{
+  overflow: hidden;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  right: 11px;
+  border-width: 2px;
+  border-color: #2b2b29;
+  text-indent: -999px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  @include oneEventTransition(opacity);
+
+  &:hover{
+    opacity: .8;
+  }
+
+}
+.spinner-plus{
+  top: 10px;
+  border-top-style: solid;
+  border-right-style: solid;
+}
+.spinner-minus{
+  bottom: 10px;
+  border-bottom-style: solid;
+  border-left-style: solid;
+}
+.spinner__value{
+  display: none;
+}

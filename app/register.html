@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=998">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+
+    <title>Title</title>
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/register-page.css">
+
+</head>
+<body>
+
+    <!-- site -->
+    <div class="site">
+
+        <!-- site__header -->
+        <header class="site__header">
+
+            <!-- site -->
+            <div class="site__header-layout">
+
+                <!-- logo -->
+                <h1 class="logo">
+                    <img src="img/logo.png" alt="EVENT MB"/>
+                </h1>
+                <!-- /logo -->
+
+                <!-- account-control -->
+                <div class="account-control">
+                    <a href="#" class="account-control__item">My Account</a>
+                    <a href="#" class="account-control__item">Log Out</a>
+                </div>
+                <!-- /account-control -->
+
+            </div>
+
+            <!-- site -->
+        </header>
+        <!-- /site__header -->
+
+        <!-- site__content -->
+        <div class="site__content">
+
+            <!-- register -->
+            <div class="register">
+
+                <!-- register__layout -->
+                <form method="post" action="#" class="register__layout">
+
+                    <!-- register__title -->
+                    <h2 class="register__title"><i class="fa fa-hand-o-down"></i> REGISTER</h2>
+                    <!-- /register__title -->
+
+                    <fieldset>
+                        <label for="register__username">Username <span>*</span></label>
+                        <input type="text" name="register__username" id="register__username" required/>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="register__email">E-mail <span>*</span></label>
+                        <input type="email" name="register__email" id="register__email" required/>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="register__password">password <span>*</span></label>
+                        <input type="password" name="register__password" id="register__password" required/>
+
+                        <!-- register__note -->
+                        <span class="register__note">At least 7 characters please!</span>
+                        <!-- /register__note -->
+
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="register__confirm-password">CoNFIRM PASSWORD <span>*</span></label>
+                        <input type="password" name="register__confirm-password" id="register__confirm-password" required/>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="register__surname">SURNAME</label>
+                        <input type="text" name="register__surname" id="register__surname"/>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="register__last-name">last name</label>
+                        <input type="text" name="register__last-name" id="register__last-name"/>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="register__work-email">WORK EMAIL</label>
+                        <input type="email" name="register__work-email" id="register__work-email"/>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="register__phone">PHONE</label>
+                        <input type="tel" name="register__phone" id="register__phone"/>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="register__event">SIZE OF YOUR EVENT</label>
+
+                        <select class="register__event" name="register__event" id="register__event">
+                            <option value="small">small</option>
+                            <option value="big">big</option>
+                            <option value="bigger">bigger</option>
+                            <option value="the biggest">the biggest</option>
+                        </select>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="register__budget">BUDGET</label>
+
+                        <!-- spinner -->
+                        <div class="spinner">
+                            <input type="number" name="register__budget" id="register__budget" class="spinner-input" value="0"/>
+                            <a href="#" class="spinner-plus">+</a>
+                            <a href="#" class="spinner-minus">-</a>
+                        </div>
+                        <!-- /spinner -->
+
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="register__describes">WHAT BEST DESCRIBES YOU?</label>
+
+                        <!-- spinner -->
+                        <div class="spinner">
+                            <input type="number" name="register__describes" id="register__describes" class="spinner-input" value="0"/>
+                            <a href="#" class="spinner-plus">+</a>
+                            <a href="#" class="spinner-minus">-</a>
+                        </div>
+                        <!-- /spinner -->
+
+                    </fieldset>
+
+                    <!-- register__note -->
+                    <span class="register__required-note"><b>*</b> Required field</span>
+                    <!-- /register__note -->
+
+                    <!-- captcha -->
+                    <div class="captcha">
+                        <img src="pic/img-captcha.jpg" alt="temp"/>
+                    </div>
+                    <!-- /captcha -->
+
+                    <fieldset>
+                        <button type="submit" name="register__send" class="btn">REGISTER</button>
+                    </fieldset>
+
+                </form>
+                <!-- /register__layout -->
+
+            </div>
+            <!-- /register -->
+
+        </div>
+        <!-- /site__content -->
+
+        <!-- site__footer -->
+        <footer class="site__footer">
+
+            <!-- site__footer-layout -->
+            <div class="site__footer-layout">
+
+                <!-- footer-menu -->
+                <nav class="footer-menu">
+                    <a href="#" class="footer-menu_item">Advertise</a>
+                    <a href="#" class="footer-menu_item">FAQ</a>
+                    <a href="#" class="footer-menu_item">Copyright</a>
+                    <a href="#" class="footer-menu_item">Guest Post Submission</a>
+                    <a href="#" class="footer-menu_item">Event Startup Submission</a>
+                    <a href="#" class="footer-menu_item">General Contact</a>
+                    <a href="#" class="footer-menu_item">Privacy</a>
+                </nav>
+                <!-- /footer-menu -->
+
+                <!-- social -->
+                <div class="social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                </div>
+                <!-- /social -->
+
+                <!-- copyright -->
+                <div class="copyright">
+                    2007-2015 Social Coup Ltd | EventManagerBlog.com is a trading name of Social Coup Ltd
+                </div>
+                <!-- /copyright -->
+
+            </div>
+            <!-- /site__footer-layout -->
+
+        </footer>
+        <!-- /site__footer -->
+
+        <!-- site__mobile-screen -->
+        <div class="site__mobile-screen">
+
+            <!-- site__mobile-error -->
+            <div class="site__mobile-error">
+                <p>Sorry, the mobile version is not available at the moment.</p>
+                <p>Please, check the desktop version for your research.</p>
+            </div>
+            <!-- /site__mobile-error -->
+
+        </div>
+        <!-- /site__mobile-screen -->
+
+    </div>
+    <!-- /site -->
+
+    <script src="js/vendors/jquery-2.2.1.min.js"></script>
+    <script src="js/vendors/device.min.js"></script>
+    <script src="js/register.min.js"></script>
+</body>
+</html>

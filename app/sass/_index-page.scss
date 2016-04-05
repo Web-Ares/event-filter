@@ -1,0 +1,19 @@
+.index-page {
+  min-height: calc(100vh - 167px - 91px);
+  padding-top: 53px;
+  color: $index-content-color;
+  @include main-font2;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  background: url('../img/bg-index.jpg') no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+}
+.index-page__layout{
+  width: 350px;
+  margin: 0 auto;
+}
+.index-page__foreword{
+  margin-bottom: 57px;
+}
