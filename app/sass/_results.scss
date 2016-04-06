@@ -1,17 +1,19 @@
 .results {
   margin: 30px auto;
-  padding: 40px 41px;
+  padding-bottom: 41px;
   color: $results-content-color;
   @include main-font3;
   font-size: 18px;
   line-height: 30px;
   letter-spacing: -0.3px;
+}
+.results_empty{
+  padding: 0 40px 41px;
   background-color: $results-background;
 }
 .results__title {
-  margin-bottom: 27px;
-  padding-bottom: 25px;
-  border-bottom: 1px solid $results-delimiter;
+  padding: 40px 0 25px;
+  background-color: $results-background;
   color: $results-title-color;
   @include main-font4;
   font-size: 30px;
@@ -20,4 +22,49 @@
 }
 .results__decision{
   margin-bottom: 30px;
+}
+.results__advice{
+  padding-top: 27px;
+  border-top: 1px solid $results-delimiter;
+}
+.results__wrap{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 29px;
+  padding-top: 29px;
+  border-top: 1px solid $results-delimiter-2;
+}
+.results__item{
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  position: relative;
+  width: 222px;
+  height: 160px;
+  margin-bottom: 30px;
+  background-color: $results-background;
+  @include main-font4;
+  color: $results__item-color;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+}
+.results__item p{
+  text-transform: uppercase;
+}
+.results__item-link{
+  position: absolute;
+  right: 0;
+  bottom: -30px;
+  font-size: 14px;
+  color: $results__item-link;
+  @include oneEventTransition(opacity);
+
+  &:hover{
+    opacity: .8;
+  }
+
 }
